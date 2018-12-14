@@ -10,7 +10,7 @@ Our dataset is pulled from Kaggle.com which had many country’s exchange rates 
 
 In our dataset, in order to perform analysis, we decompose our dataset into the above mentioned 3 components. They are shown in the graphs as below:-
 
- ! [Decomposition of Data] (Seasonal_Decompostion.png "Data Decomposition")
+ ! [Decomposition of Data] (images/Data_Description.png "Data Decomposition")
  
 From the above graphs, we conclude there is upward trend in the data, with a significant rise in early 1990s, then a slight dip in late 2000s. To understand the seasonal pattern of our data we plotted a monthly seasonality for the data. As seen from the graph below, there is a sharp dip in the months of May and June and steep rise in the months of September and October.
 
