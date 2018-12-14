@@ -3,14 +3,14 @@
 
 Our dataset is pulled from Kaggle.com which had many country’s exchange rates with base rate to compare being United States Dollars (USD). Out of this we chose exchange rate of Indian National Rupees (INR) for forecasting. The dataset had 16308 records spread across January 1973 to August 2017. It also had over 5000 missing records. These values were replaced by the previous day’s value. The daily data was converted to weekly data by taking the mean of the exchange rates for the entire week. Data transformation and cleaning was done using excel and then it was imported to R for further analysis.
 
-! (/Data_Description.jpg)
+ ![Dataset Description](images/Data_Descripton.png "Dataset Description")
 
  
 ## 2.	Dataset Decomposition: -
 
 In our dataset, in order to perform analysis, we decompose our dataset into the above mentioned 3 components. They are shown in the graphs as below:-
 
- ! [Decomposition of Data] (images/Data_Description.png "Data Decomposition")
+ ![Seasonal Decomposition](images/Seasonal_Decomposition.png "Dataset Description")
  
 From the above graphs, we conclude there is upward trend in the data, with a significant rise in early 1990s, then a slight dip in late 2000s. To understand the seasonal pattern of our data we plotted a monthly seasonality for the data. As seen from the graph below, there is a sharp dip in the months of May and June and steep rise in the months of September and October.
 
